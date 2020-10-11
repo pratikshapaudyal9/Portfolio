@@ -112,13 +112,13 @@ body {
 
 .profile > div {
   flex: 1; /*grow*/
-  font-size: 15px;
+  font-size: 1rem;
 
 }
 
 .Photo{
   /*text-align: center;*/
-  font-size: 15px;
+  font-size: 1rem;
   text-align: center;
 
   /*border: 1px solid green;*/
@@ -137,21 +137,16 @@ a:hover {
 }
 
 .Text{
-  font-size: 15px;
+  font-size: 1rem;
   text-align: justify;
 
 }
 
-.Football{
-  text-align: center;
-  /*border: 1px solid rgb(54, 136, 104);*/
-  font-size: 15px;
 
-}
 .Food{
   text-align: center;
   /*border: 1px solid green;*/
-  font-size: 15px;  
+  font-size: 1rem;  
   grid-gap: 4px;
 
 }
@@ -159,7 +154,7 @@ a:hover {
 .Tech{
   text-align: center;
   /*border: 1px solid green;*/
-  font-size: 15px;
+  font-size: 1rem;
 
   
 
@@ -175,8 +170,8 @@ a:hover {
 /* Style all font awesome icons */
 .fa {
   padding: 50px;
-  font-size: 50px;
-  width: 100px;
+  font-size: 4vw;
+  width: 4vw;
   text-align: center;
   text-decoration: none;
 }
