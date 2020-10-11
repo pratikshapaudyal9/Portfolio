@@ -104,9 +104,26 @@ a:hover {
   display: flex;
 /*  width: 40vw;
   height: 100vh;*/
-  width: 20vw;
-  height: 80vh;
+/*  width: 20vw;
+  height: 80vh;*/
 
+}
+
+.flex-inline-container {
+  display: inline-flex;
+}
+
+.width-min-content {
+  width: min-content;
+}
+
+.row-direction {
+  flex-direction: row;
+  border: 0.0625rem solid #3cf;
+ }
+.col-direction {
+  flex-direction: column;
+  border: 0.0625rem solid magenta;
 }
 
 .index .content .Food{
