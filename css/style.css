@@ -65,28 +65,6 @@ body {
   padding-bottom: 3rem;
 }
 
-.index .content .items .item:first-child {
-  border-top: 1px solid #d8d8d8;
-}
-
-.index .content .items .item {
-  overflow: hidden;
-  border-bottom: 1px solid #d8d8d8;
-}
-
-.index .content .items .answer {
-  height: 0px;
-  overflow: hidden;
-}
-
-.index .content .items .answer p {
-  line-height: 30px;
-  color: #565656;
-}
-
-
-
-
 
 /* FROM GLITCH */
 
@@ -122,8 +100,13 @@ a:hover {
 
 }
 
+.index .content .container {
+  display: flex;
+/*  width: 40vw;
+  height: 100vh;*/
+}
 
-.index .content .Food{
+.index .content .container .Food{
   text-align: center;
   /*border: 1px solid green;*/
   font-size: 1vw;  
@@ -131,25 +114,15 @@ a:hover {
 
 }
 
-.index .content .Tech{
+.index .content .container .Tech{
   text-align: center;
   /*border: 1px solid green;*/
   font-size: 1vw;
-
-  
-
+  grid-gap: 4px;
 }
 
-.container {
-  display: flex;
-  width: 40vw;
-  height: 100vh;
-}
-.container > div {
-  flex: 1; /*grow*/
-  width: 40vw;
-  height: 100vh;
-}
+
+
 
 /* Style all font awesome icons */
 .fa {
@@ -164,6 +137,29 @@ a:hover {
 .fa:hover {
   opacity: 0.5;
 }
+
+
+#img1 {
+  width: 78.5%;
+  height: inherit;
+  object-fit: cover;
+  object-positon: center center;
+}
+
+.index .content .container .Food #img2 {
+  /*width: 100%;*/
+  height: inherit;
+  object-fit: cover;
+  object-positon: center center;
+}
+
+.index .content .container .Tech #img3 {
+  /*width: 150%;*/
+  height: inherit;
+  object-fit: cover;
+  object-positon: center center;
+}
+
 
 
 links{
