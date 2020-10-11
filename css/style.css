@@ -11,7 +11,7 @@ body {
 }
 
 /* Left Side */
-.index .illustration {
+.LeftSide {
   background: url('../img/IMG_20191231_091626.jpg');
   background-size: cover;
   height: 100vh;
@@ -23,17 +23,35 @@ body {
   padding-left: 5rem;
 }
 
-.index .illustration h1 {
+.LeftSide h1 {
   padding-top: 2rem;
 }
 
-.index .illustration .headline {
-  font-size: 4.7rem;
+.LeftSide .headline {
+  font-size: 2rem;
   font-weight: 600;
   max-width: 70%;
 }
 
-.index .illustration .footer {
+  .LeftSide .headline ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.index .LeftSide .headline a {
+  color:  white;
+  text-decoration: none;
+  margin-bottom: 1.25em;
+  font-weight: 700;
+  padding: 0px 10px;
+}
+
+.index .LeftSide .headline a:hover {
+   text-decoration: underline; // changed from text:decoration:none
+}
+
+.index .LeftSide .footer {
   font-size: 1.7rem;
   font-weight: 600;
   max-width: 70%;
@@ -41,7 +59,7 @@ body {
   padding-bottom: 2rem;
 }
 
-.index .illustration .footer:before {
+.index .LeftSide .footer:before {
   content: '';
   position: relative;
   display: block;
@@ -100,7 +118,7 @@ a:hover {
 
 }
 
-.index .content .container {
+.container {
   display: flex;
 /*  width: 40vw;
   height: 100vh;*/
@@ -109,12 +127,12 @@ a:hover {
 
 }
 
-.index .content .container .flex-inline-container {
+.content .container .flex-inline-container {
   display: inline-flex;
 }
 
 
-.index .content .container .flex-inline-container .Food{
+.content .container .flex-inline-container .Food{
   text-align: center;
   /*border: 1px solid green;*/
   font-size: 1vw;  
@@ -122,7 +140,7 @@ a:hover {
 
 }
 
-.index .content .container .flex-inline-container .Tech{
+.content .container .flex-inline-container .Tech{
   text-align: center;
   /*border: 1px solid green;*/
   font-size: 1vw;
