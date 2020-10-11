@@ -112,13 +112,13 @@ body {
 
 .profile > div {
   flex: 1; /*grow*/
-  font-size: 20px;
+  font-size: 15px;
 
 }
 
 .Photo{
   /*text-align: center;*/
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 
   /*border: 1px solid green;*/
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .Text{
-  font-size: 20px;
+  font-size: 15px;
   text-align: justify;
 
 }
@@ -145,13 +145,13 @@ a:hover {
 .Football{
   text-align: center;
   /*border: 1px solid rgb(54, 136, 104);*/
-  font-size: 20px;
+  font-size: 15px;
 
 }
 .Food{
   text-align: center;
   /*border: 1px solid green;*/
-  font-size: 20px;  
+  font-size: 15px;  
   grid-gap: 4px;
 
 }
@@ -159,7 +159,8 @@ a:hover {
 .Tech{
   text-align: center;
   /*border: 1px solid green;*/
-  font-size: 20px;
+  font-size: 15px;
+
   
 
 }
