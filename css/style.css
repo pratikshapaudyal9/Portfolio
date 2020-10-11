@@ -252,12 +252,16 @@ height: 80vh;*/
 
     .index .LeftSide .headline {
       font-size: 1rem;
-      
+
+    }
+
+    .index .content .Text{
+      font-size: 1vw;
     }
 
     .index .content {
       padding: 0;
       text-align: center;
     }
-    
+
   }
