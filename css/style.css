@@ -112,11 +112,15 @@ body {
 
 .profile > div {
   flex: 1; /*grow*/
+  font-size: 20px;
+
 }
 
 .Photo{
   /*text-align: center;*/
   font-size: 20px;
+  text-align: center;
+
   /*border: 1px solid green;*/
 
 }
@@ -130,6 +134,12 @@ a {
 
 a:hover {
    text-decoration: underline; // changed from text:decoration:none
+}
+
+.Text{
+  font-size: 20px;
+  text-align: justify;
+
 }
 
 .Football{
