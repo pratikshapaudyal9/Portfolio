@@ -37,6 +37,8 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-left: 2rem;
+  padding-right: 5rem;
 }
 
 .index .LeftSide .headline a {
@@ -231,15 +233,6 @@ fa-twitter {
 
 
 /* Responsive */
-@media only screen and (min-width: 2560px) {
-  .index .content .items .question p {
-    font-size: 2.7rem;
-  }
-
-  .index .content .items .answer p {
-    font-size: 1.5rem;
-  }
-}
 
 @media only screen and (max-width: 1025px) {
   .index {
@@ -272,15 +265,6 @@ fa-twitter {
   .index .illustration .headline {
     font-size: 1rem;
     
-  }
-
-  .index .illustration .footer {
-    margin: auto;
-    font-size: 1.3rem;
-  }
-
-  .index .illustration .footer:before {
-    margin: auto;
   }
 
   .index .content {
