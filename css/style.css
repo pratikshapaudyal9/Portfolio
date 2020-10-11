@@ -28,7 +28,7 @@ body {
 }
 
 .LeftSide .headline {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   max-width: 70%;
 }
@@ -74,7 +74,7 @@ body {
   overflow-y: scroll;
   width: 50vw;
   height: 100vh;
-  padding-left: 5rem;
+  padding-left: 2rem;
   padding-right: 5rem;
 }
 
