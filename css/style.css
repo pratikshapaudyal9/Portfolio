@@ -1,0 +1,283 @@
+body {
+  font-family: Arial;
+  /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+.index {
+  display: flex;
+}
+
+/* Left Side */
+.index .illustration {
+  background: url('../img/IMG_20191231_091626.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 50vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5rem;
+}
+
+.index .illustration h1 {
+  padding-top: 2rem;
+}
+
+.index .illustration .headline {
+  font-size: 4.7rem;
+  font-weight: 600;
+  max-width: 70%;
+}
+
+.index .illustration .footer {
+  font-size: 1.7rem;
+  font-weight: 600;
+  max-width: 70%;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.index .illustration .footer:before {
+  content: '';
+  position: relative;
+  display: block;
+  background: #fff;
+  height: 2px;
+  width: 10%;
+  top: -20px;
+}
+
+/* Right Side */
+.index .content {
+  overflow-y: scroll;
+  width: 50vw;
+  height: 100vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.index .content h1 {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.index .content .items .item:first-child {
+  border-top: 1px solid #d8d8d8;
+}
+
+.index .content .items .item {
+  overflow: hidden;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.index .content .items .question {
+  display: flex;
+  cursor: pointer;
+}
+
+.index .content .items .question .material-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-left: auto;
+}
+
+.index .content .items .question p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 1.3rem;
+}
+
+.index .content .items .answer {
+  height: 0px;
+  overflow: hidden;
+}
+
+.index .content .items .answer p {
+  line-height: 30px;
+  color: #565656;
+}
+
+
+
+
+
+/* FROM GLITCH */
+
+.profile > div {
+  flex: 1; /*grow*/
+}
+
+.Photo{
+  /*text-align: center;*/
+  font-size: 20px;
+  /*border: 1px solid green;*/
+
+}
+
+a {
+  color:  black;
+  text-decoration: none;
+  margin-bottom: 1.25em;
+  font-weight: 700;
+}
+
+a:hover {
+   text-decoration: underline; // changed from text:decoration:none
+}
+
+.Football{
+  text-align: center;
+  /*border: 1px solid rgb(54, 136, 104);*/
+  font-size: 20px;
+
+}
+.Food{
+  text-align: center;
+  /*border: 1px solid green;*/
+  font-size: 20px;  
+  grid-gap: 4px;
+
+}
+
+.Tech{
+  text-align: center;
+  /*border: 1px solid green;*/
+  font-size: 20px;
+  
+
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+links{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0deg);
+    transition: transform .4s ease-in-out;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+fa-github{
+  background: #007bb5;
+  color: white;
+  transform: translate(-50%,-50%) rotate(0deg);
+  transition: transform .4s ease-in-out;
+}
+
+fa-linkedin {
+    background: #007bb5;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(0deg);
+    transition: transform .4s ease-in-out;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Twitter */
+fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/* Responsive */
+@media only screen and (min-width: 2560px) {
+  .index .content .items .question p {
+    font-size: 2.7rem;
+  }
+
+  .index .content .items .answer p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .index {
+    flex-direction: column;
+  }
+
+  .index .illustration,
+  .index .content {
+    width: 100vw;
+    padding-right: 0;
+  }
+
+  .index .content {
+    padding-top: 3rem;
+  }
+
+  .index .content .items {
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .index .illustration {
+    height: auto;
+    display: unset;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .index .illustration .headline {
+    font-size: 1rem;
+    
+  }
+
+  .index .illustration .footer {
+    margin: auto;
+    font-size: 1.3rem;
+  }
+
+  .index .illustration .footer:before {
+    margin: auto;
+  }
+
+  .index .content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .index .content .items {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
